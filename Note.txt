@@ -5,4 +5,7 @@ https://jsonplaceholder.typicode.com/
 https://jsonplaceholder.typicode.com/users
 https://jsonplaceholder.typicode.com/users/1
 
+https://reactjs.org/docs/concurrent-mode-suspense.html
+
+https://www.bootstrapcdn.com/
 ===============================================================
