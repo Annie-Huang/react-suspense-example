@@ -51,4 +51,30 @@ const ProfileDetails = () => {
 }
  */
 
+const ProfilePosts = () => {
+    const posts = resource.posts.read();
+    return (
+        <ul className="list-group">
+            <li className="list-group-item">
+                <strong>Latest Posts</strong>
+            </li>
+            {posts.map(post => (
+                <li className="list-group-item" key={post.id}>
+                    {post.title}
+                </li>
+            ))}
+        </ul>
+    );
+};
+
+/*
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+]
+ */
 export default App;
