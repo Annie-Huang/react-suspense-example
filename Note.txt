@@ -8,4 +8,9 @@ https://jsonplaceholder.typicode.com/users/1
 https://reactjs.org/docs/concurrent-mode-suspense.html
 
 https://www.bootstrapcdn.com/
+
 ===============================================================
+
+C:\react\react-suspense-example>npm i react@experimental react-dom@experimental axios
+
+
