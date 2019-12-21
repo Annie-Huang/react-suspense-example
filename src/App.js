@@ -2,15 +2,16 @@ import React, { Suspense } from 'react';
 import './App.css';
 
 import { fetchData } from './Api';
-
 const resource = fetchData();
 
 const App = () => (
     <div className="container my-5">
         <Suspense fallback={<h1>Loading User...</h1>}>
+        {/*<Suspense fallback={<Spinner />}>*/}
             <ProfileDetails />
         </Suspense>
         <Suspense fallback={<h1>Loading Posts...</h1>}>
+        {/*<Suspense fallback={<Spinner />}>*/}
             <ProfilePosts />
         </Suspense>
     </div>
@@ -82,4 +83,14 @@ const ProfilePosts = () => {
   },
 ]
  */
+
+
+const Spinner = () => (
+    <img
+        src='./spinner.gif'
+        style={{width: '200px', margin: 'auto', display: 'block'}}
+        alt="Loading..."
+    />
+);
+
 export default App;
