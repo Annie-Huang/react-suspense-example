@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=NTDJ-NQ32_E
+https://github.com/Annie-Huang/react-suspense-example
+
+https://jsonplaceholder.typicode.com/
+https://jsonplaceholder.typicode.com/users
+https://jsonplaceholder.typicode.com/users/1
+
+===============================================================
